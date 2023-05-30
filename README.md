@@ -1,14 +1,14 @@
 ## LiquidCrystal_I2C_Menu
-**LiquidCrystal_I2C_Menu** - это библиотека для создания пользовательского интерфейса на Ардуино и текстовом ЖК дисплее с I2C интерфейсом. Библиотека предоставляет функционал для форматированного вывода, ввода и выбора значений, организации меню. Управление осуществляется с помощью энкодера вращения с кнопкой.
+**LiquidCrystal_I2C_Menu** - LiquidCrystal_I2C_Menu is a library for creating a user interface on Arduino and a text LCD with an I2C interface. The library provides functionality for formatted output, input and selection of values, menu organization. The control is carried out using a rotation encoder with a button.
 
-## Подключение
+## Connection
 [![LiquidCrystal_I2C_Menu Подключение](https://github.com/VladimirTsibrov/LiquidCrystal_I2C_Menu/raw/master/wiring/LiquidCrystal_I2C_Menu%20wiring.png "LiquidCrystal_I2C_Menu Подключение")](https://github.com/VladimirTsibrov/LiquidCrystal_I2C_Menu/raw/master/wiring/LiquidCrystal_I2C_Menu%20wiring.png "LiquidCrystal_I2C_Menu Подключение")
 
-## Управление кнопками
-Вместо энкодера вращения могут быть использованы кнопки. Для этого существует другая версия данной библиотеки - [LiquidCrystal_I2C_Menu_Btns](https://github.com/VladimirTsibrov/LiquidCrystal_I2C_Menu_Btns "LiquidCrystal_I2C_Menu_Btns")
+## Button control
+Buttons can be used instead of a rotation encoder. There is another version of this library for this. - [LiquidCrystal_I2C_Menu_Btns](https://github.com/VladimirTsibrov/LiquidCrystal_I2C_Menu_Btns "LiquidCrystal_I2C_Menu_Btns")
 
-## Функции
-Наряду со стандартными функциями, унаследованными из библиотеки LiquidCrystal_I2C, в данной библиотеке реализованы следующие:
+## Functions
+Along with the standard functions inherited from the LiquidCrystal_I2C library, this library implements the following:
 - **printAt(x, y, text)** – вывод текста на дисплей с указанной позиции.
 - **printf(format, …)** – форматированный вывод текста. Действуют те же правила, что и в других функциях форматированного вывода, например, sprintf.
 - **printfAt(x, y, format, …)** – форматированный вывод с указанной позиции.
